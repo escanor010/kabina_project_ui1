@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serverUrls: {
+    kabinaBaseURL: 'http://localhost:8080/kabina'
+  },
+  landingPagePath: '/kabina',
+  logo: {
+    path: 'assets/images/logos/company_logo.png'
+  }
 };
 
 /*
