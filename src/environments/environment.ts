@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  apiUrl: 'http://localhost:8080/kabina/api/v1',
   serverUrls: {
     kabinaBaseURL: 'http://localhost:8080/kabina'
   },
